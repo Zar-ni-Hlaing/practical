@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;1,100;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        .list-one {
+            list-style-type: square;
+        }
+
+        .list-two {
+            border: 1px solid black;
+            /* padding-left: 0; */
+            list-style-type: none;
+            width: 200px;
+            padding: 5px;
+        }
+
+        .list-two li {
+            border: 1px solid black;
+
+            padding: 10px 15px;
+            /* text-align: center; */
+            margin-bottom: 5px;
+        }
+
+        .list-two li:last-child {
+            margin-bottom: 0;
+        }
+
+        .list-three {
+            border: 1px solid black;
+            /* padding-left: 0; */
+            list-style-type: none;
+            /* width: 200px; */
+            padding: 5px;
+            margin: 0 10px;
+            text-align: right;
+        }
+
+        .list-three li {
+            border: 1px solid black;
+
+            padding: 10px 15px;
+            /* text-align: center; */
+            /* margin-bottom: 5px; */
+            display: inline-block;
+            margin: 0 10px;
+            text-align: right;
+        }
+
+        .list-three li:last-child {
+            margin-bottom: 0;
+        }
+        .list-three li:hover,.list-three li.active{
+            background-color: skyblue;
+
+            transition: 1s;
+        }
+        .list-four{
+            padding: 0;
+            list-style-type: none;
+
+        }
+        .list-four li{
+            background-color: grey;
+            padding: 10px 15px;
+            margin-bottom: 5px;
+            width: 200px;
+            border-left: 2px solid black;
+            transition: 0.5s;
+            box-sizing: border-box;
+        }
+        .list-four li:hover,.list-four li.active{
+            border-left: 10px solid black;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="list-one">
+        <li>apple</li>
+        <li>orange</li>
+        <li>strawberry</li>
+        <li>orange</li>
+    </ul>
+
+    <br>
+    <ul class="list-two">
+        <li>apple</li>
+        <li>orange</li>
+        <li>strawberry</li>
+        <li>orange</li>
+    </ul>
+    <ul class="list-three">
+        <li>apple</li>
+        <li class="active">orange</li>
+        <li>strawberry</li>
+        <li>orange</li>
+    </ul>
+    </ul>
+    <ul class="list-four">
+        <li class="active">apple</li>
+        <li>orange</li>
+        <li>strawberry</li>
+        <li>orange</li>
+    </ul>
+</body>
+
+</html>

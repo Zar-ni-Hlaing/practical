@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;1,100;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        *{
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        
+        .btn{
+            background: blue;
+            color: white;
+            padding: 10px;
+            
+            text-decoration: none;
+            font-size: 12px;
+            
+            display: inline-block;
+           
+        }
+
+        .btn:active{
+            background-color: brown;
+            border-color: blue;
+
+        }
+        .btn-primary{
+            background: rgb(90, 226, 27);
+           border: 2px solid rgb(0, 0, 0);
+            
+        }
+
+        .btn-primary:active{
+            background-color: aqua;
+          border: black;
+        }
+
+        .btn-secondary{
+            background: red;
+           border: 2px solid yellow;
+            
+        }
+
+        .btn-secondary:active{
+            background-color: aqua;
+          border: black;
+        }
+        .btn-dark{
+            background: black;
+            
+            border: 2px solid black;
+            
+        }
+        .btn-dark:active{
+            background-color: aqua;
+          border: black;
+        }
+        .btn-outline-primary{
+            background: white;
+            color: rgb(62, 62, 180);
+            border: 2px solid rgb(62, 62, 180);
+
+        }
+        .btn-outline-primary:hover{
+            background-color: rgb(62,62,180);
+          color: white;
+          transition: 0.5s;
+          border-radius: 20px;
+        }
+        .rounded{
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <button class="btn">normal</button>
+    <a class="btn btn-primary" href="">a tag buttom </button></a>
+    <button class="btn btn-secondary"> secondary</button>
+    <button class="btn btn-dark"> btn-dark </button>
+    <hr>
+    <button class="btn btn-outline-primary">outline-primary</button>
+
+    <hr>
+    <button class="btn btn-secondary">
+        <i class="fas fa-home"></i>
+    </button>
+   
+
+    <button class="btn btn-outline-primary">
+        <i class="fas fa-home"></i>
+    </button>
+    <hr>
+
+    <button class="btn btn-secondary rounded "> secondary</button>
+    <button class="btn btn-dark rounded"> btn-dark </button>
+
+</body>
+</html>
